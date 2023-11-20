@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/3505930/make-an-http-request-with-android
+https://square.github.io/retrofit/

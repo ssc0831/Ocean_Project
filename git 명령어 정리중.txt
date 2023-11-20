@@ -1,0 +1,27 @@
+mkdir - 만들기
+touch 바로 만들기
+env 환경변수
+env | less 검색 -> /찾을문자
+
+cat // 내용보기
+
+git commit -am "변경사항"
+
+git diff Head
+git log
+git branch john // 브랜치 만들기
+git branch // 브랜치 확인
+
+cd- 직전
+git branch -d -bob // 밥 삭제
+
+ssh-keygen 엔터 엔터
+
+cd .ssh
+notepad id_rsa.pub
+
+
+23/11/13
+
+git branch XXX
+git checkout XXX
