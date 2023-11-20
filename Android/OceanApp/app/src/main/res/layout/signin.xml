@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="-30dp"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:src="@drawable/whale_labs_1"
+        >
+    </ImageView>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="83dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-25dp"
+        android:src="@drawable/sigin_logo">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="275dp"
+        android:src="@drawable/for_android"></ImageView>
+
+    <EditText
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-20dp"
+        android:fontFamily="@font/islandmoments"
+        android:hint="Enter ID"
+        android:textSize="20dp"></EditText>
+    <EditText
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-20dp"
+        android:fontFamily="@font/islandmoments"
+        android:hint="Enter Name"
+        android:textSize="20dp"></EditText>
+    <EditText
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-20dp"
+        android:fontFamily="@font/islandmoments"
+        android:hint="Cell Phone"
+        android:textSize="20dp"></EditText>
+    <EditText
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-20dp"
+        android:fontFamily="@font/islandmoments"
+        android:hint="Enter Password"
+        android:textSize="20dp"></EditText>
+    <EditText
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-20dp"
+        android:fontFamily="@font/islandmoments"
+        android:hint="Check Password"
+        android:textSize="20dp"></EditText>
+
+    <EditText
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/islandmoments"
+        android:hint="Enter Email"
+        android:textSize="20dp"></EditText>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sign_up"
+        android:layout_gravity="center">
+
+    </ImageView>
+
+
+
+</LinearLayout>

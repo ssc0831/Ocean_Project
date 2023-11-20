@@ -1,0 +1,86 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		loading
+	 *	@date 		Tuesday 07th of November 2023 01:18:14 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/loading" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+			<View
+				android:id="@+id/_bg__loading"
+				android:layout_width="410dp"
+				android:layout_height="640dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/_bg__loading_shape" />
+
+			<RelativeLayout android:id="@+id/group_90"
+				android:layout_marginTop="452dp"
+				android:layout_marginStart="56dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__group_90_ek1"
+					android:background="@drawable/_bg__group_90_ek1_shape"
+					 android:layout_marginStart="-56dp"
+					android:layout_marginTop="-452dp"
+					android:layout_width="258dp"
+					android:layout_height="74dp" />
+
+				<TextView android:id="@+id/whale_labs"
+					android:textSize="64sp"
+					android:textColor="@color/_bg__group_90_ek1_color"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="291.4dp"
+					android:layout_height="93.4dp"
+					android:fontFamily="@font/islandmoments"
+					android:textAlignment="center"
+					android:text="@string/whale_labs_string"
+					 />
+
+				<TextView android:id="@+id/for_android"
+					android:textSize="20sp"
+					android:textColor="@color/_bg__group_90_ek1_color"
+					android:layout_marginLeft="210dp"
+					android:layout_marginTop="51dp"
+					android:layout_width="85dp"
+					android:layout_height="29dp"
+					android:fontFamily="@font/islandmoments"
+					android:text="@string/for_android_string"
+					 />
+
+			</RelativeLayout>
+
+			<ImageView
+				android:id="@+id/whale_labs_1"
+				android:layout_width="265dp"
+				android:layout_height="272.05dp"
+				android:layout_marginStart="70dp"
+				android:layout_marginTop="168dp"
+				android:contentDescription="whale_labs_1"
+				android:src="@drawable/whale_labs_1" />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TabTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#DFF0FF</item>                                <!-- 배경 -->
+
+        <item name="android:textColorPrimary">@android:color/black</item>       <!-- 탭바 선택된 텍스트 -->
+        <item name="android:textColorSecondary">@android:color/black</item>     <!-- 탭바 텍스트 -->
+
+        <item name="colorAccent">#4C9EEB</item>                    <!-- 하단 움직이는 바 색-->
+    </style>
+</resources>
